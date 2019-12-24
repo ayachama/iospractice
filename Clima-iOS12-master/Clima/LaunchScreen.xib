@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clima" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvd-wn-d82">
+                    <rect key="frame" x="40" y="140" width="400" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="As7-A5-RtC"/>
+                        <constraint firstAttribute="width" constant="200" id="geY-Uv-yxz"/>
+                        <constraint firstAttribute="width" secondItem="Wvd-wn-d82" secondAttribute="height" multiplier="2:1" id="wne-ou-TV9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                    <color key="textColor" red="0.66790860261508966" green="1" blue="0.99396426557132689" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.16847139596939087" green="0.51802176237106323" blue="0.82454192638397217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wvd-wn-d82" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="140" id="50Y-fU-ZV6"/>
+                <constraint firstItem="Wvd-wn-d82" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Z5h-Jn-Lpl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+</document>
